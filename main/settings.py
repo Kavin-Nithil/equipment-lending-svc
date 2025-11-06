@@ -153,7 +153,7 @@ DATABASES = {
         'CONN_MAX_AGE': 600,
         'OPTIONS': {
             'connect_timeout': 10,
-            'options': f"-c search_path={config('DB_SCHEMA', default='shipment')}",
+            'options': f"-c search_path={config('DB_SCHEMA', default='equipment')}",
         }
     }
 }
